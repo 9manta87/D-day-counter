@@ -19,7 +19,10 @@ body{
     
     width: 25%;
 /*    height: 20rem;*/
-    margin: 6rem 0 0 53rem;
+/*    margin: 6rem 0 0 53rem;*/
+    margin-top: 6rem;
+    right: 6.8rem;    
+    position: absolute;
     text-align: center;
     animation: fadeIn 0.5s ease-in-out;    
 }
@@ -146,10 +149,14 @@ body{
     background-color: rgba(222, 222, 222, 0.07); 
     color: whitesmoke;
 }
+.toDoForm input:focus{
+    background-color: rgba(0, 0, 0, 0.50);
+}
 
 ::placeholder{
     color: rgba(255, 255, 255, 0.6);
 }
+
 .olist li{
     margin-bottom: 3px;
     font-family: 'Yeon Sung', cursive;
@@ -199,7 +206,7 @@ body{
     font-family: fontello;
     position: absolute;
 /*    border: blue 3px solid;*/
-    right: 130px;
+    right: 1.5rem;
     transform: translateY(4px);
 }
 .done{
