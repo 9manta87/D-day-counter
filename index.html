@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:400,500,600,700|Nanum+Gothic|Noto+Sans+KR:400,500,700,900|Poor+Story|Source+Sans+Pro:200,300,400|Stylish|Yeon+Sung&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+      <div class="counter">
+          <h1 id="dday"></h1>
+      </div>
+      <div class="weather">
+          <a class="city toronto" href="https://www.google.com/search?q=toronto+weather&oq=toronto+weather&aqs=chrome..69i57j0l7.2295j1j8&sourceid=chrome&ie=UTF-8">
+              <div class="upper">
+                  <div class="left">
+                      <div class="area">TORONTO</div>
+                      <div class="toronto_temp"></div>
+                  </div>
+                  <div class="tor_icon"></div>
+              </div>
+              <div class="lower">
+                  <div class="toronto_clock clock"></div>
+                  <div class="toronto_text text"></div>
+              </div>
+          </a>
+          <a class="city bangkok" href="https://www.google.com/search?sxsrf=ACYBGNTMzzZ0sDKMa3ULQhAMF0K1bQPBsQ%3A1574526752178&ei=IF_ZXbfCCqea_Qb83r5g&q=bangkok+weather&oq=bangkok+weather&gs_l=psy-ab.3..0i203l3j0i7i30j0i203l6.106021.107017..107214...0.1..1.235.878.3j3j1......0....1..gws-wiz.......0i71._7YWxHIyF_U&ved=0ahUKEwi30oKe4YDmAhUnTd8KHXyvDwwQ4dUDCAs&uact=5">
+              <div class="upper">
+                  <div class="left">
+                      <div class="area">BAGNKOK</div>
+                      <div class="bkk_temp"></div>
+                  </div>
+                  <div class="bkk_icon"></div>
+              </div>
+              <div class="lower">
+                  <div class="bkk_clock clock"></div>
+                  <div class="bkk_text text"></div>
+              </div>
+          </a>
+          
+          
+      </div>
+      <div class="todolist">
+         <form class="toDoForm" action="#">
+             <input type="text" placeholder="what to do">
+         </form>
+         <ol class="olist"></ol>
+      </div>
+  </div>
+    <script src="dday.js"></script>
+    <script src="bg.js"></script>
+    <script src="list.js"></script>
+    <script src="weather_toronto.js"></script>
+    <script src="weather_bkk.js"></script>
+    <script src="clock.js"></script>
+    
+</body>
+</html>
