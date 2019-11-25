@@ -35,4 +35,5 @@ function getWeather(){
 function init(){
     getWeather();
 }
+
 init();

@@ -67,14 +67,14 @@ function toDoHandler(event){
     toDoInput.value="";
     
 }
+
 function loadToDo(){
     const loadedToDo = localStorage.getItem(TODOS),
           parsedToDo = JSON.parse(loadedToDo);
     if (loadedToDo !== null){
         parsedToDo.forEach(function(index){
             showToDo(index.text);
-        })
-        
+        })       
     }
 }
 
@@ -82,4 +82,5 @@ function init(){
     toDoForm.addEventListener("submit", toDoHandler);
     loadToDo();
 }
+
 init();

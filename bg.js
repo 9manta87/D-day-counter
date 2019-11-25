@@ -17,5 +17,5 @@ function randomNumber(){
 function init(){
     randomNumber();
 }
-init();
 
+init();

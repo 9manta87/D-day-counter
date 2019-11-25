@@ -23,4 +23,5 @@ function init(){
     getTimeNow();
 //    setInterval(init, 1000);
 }
+
 init();

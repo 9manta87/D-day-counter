@@ -283,4 +283,13 @@ body{
     font-size: 38px;
     position: relative;  
 }
-
+@media(min-width:540px){
+    .container{
+        width: 320px;
+    }
+}
+@media(max-width:540px){
+    .container{
+        display: none;
+    }
+}
