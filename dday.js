@@ -1,4 +1,4 @@
-var dDay = new Date(2020, 02, 25, 00, 00, 00, 50);
+var dDay = new Date(2020, 01, 01, 00, 00, 00, 50);
 
 
 function showNumber(result){
